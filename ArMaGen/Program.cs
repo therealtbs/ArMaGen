@@ -13,6 +13,7 @@ namespace ArMaGen
         static void Main(string[] args)
         {
             var files = Directory.EnumerateFiles(Environment.CurrentDirectory, args[0]);
+            files = files.Select(Path.GetFileName);
             File.WriteAllText(Path.Combine(Environment.CurrentDirectory, "artifacts.json"), JsonConvert.SerializeObject(new { artifacts = files }));
         }
     }
