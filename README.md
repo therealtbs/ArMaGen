@@ -1,6 +1,6 @@
 ArMaGen
 =======
-**Ar**tifact **Ma**nifest **Gen**erator is a small tool that produces small JSON-files about CI build artifacts.
+<b>Ar</b>tifact <b>Ma</b>nifest <b>Gen</b>erator is a small tool that produces small JSON-files about CI build artifacts.
 
 ArMaGen saves this data in a file called `artifacts.json`
 ```json
