@@ -16,4 +16,4 @@ Where [SearchPattern] can use wildcards (*)
 
 Builds
 ------
-For now you can download ArMaGen right [here](http://builds.therealtbs.me/ArMaGen/25/ArMaGen.exe)
+You can find the latest builds right [here](http://builds.therealtbs.me/#!ArMaGen)
